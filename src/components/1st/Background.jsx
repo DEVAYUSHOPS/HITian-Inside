@@ -74,7 +74,14 @@ export const Background = () => {
           <div className="card four"></div>
           <div className="card five"></div>
         </div>
-        
+
+      </section>
+
+      <section className="gallery">
+        <div className="gallery">
+          
+        </div>
+        <img src={collage} alt="" />
       </section>
 
 
