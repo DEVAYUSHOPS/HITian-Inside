@@ -1,49 +1,28 @@
 import React from "react";
 import "./Background.css";
+import Navbar from "../partials/navbar/navbar";
 import home from "../../assets/img/Home.png";
-import Logo from "../../assets/img/logo.png";
+
 import hit from "../../assets/img/hit33-1.png";
 import curve from "../../assets/img/homepage-curve.png";
 import name from "../../assets/img/HITian Inside name.png";
 import grad1 from "../../assets/img/gradient-1.png";
-import newLogo from "../../assets/img/inside-logo-new-1.png";
+
 import collage from "../../assets/img/Image-collage.png";
+import Footer from "../partials/footer/footer";
+
 
 export const Background = () => {
   return (
     <>
+      {/* Navbar */}
 
+      <Navbar />
+      {/* navbar-end  */}
       {/* Homepage  */}
+      
       <section className="homepage">
-
-        {/* Navbar */}
-
-        <nav className="navbar">
-          <div className="logo-container">
-            <img src={Logo} alt="logo" />
-            <h5>HITian Inside</h5>
-          </div>
-
-          <div className="nav-items">
-            <span className="nav-item">
-              <a href="#">Home</a>
-            </span>
-            <span className="nav-item">
-              <a href="#">Events</a>
-            </span>
-            <span className="nav-item">
-              <a href="#">Almanac</a>
-            </span>
-            <span className="nav-item">
-              <a href="#">Merchandise</a>
-            </span>
-            <span className="nav-item">
-              <a href="#">Members</a>
-            </span>
-          </div>
-        </nav>
-
-        {/* navbar-end  */}
+        
 
         <h1>COME AND EXPLORE</h1>
         <img src={name} alt="name" className="name" />
@@ -74,18 +53,22 @@ export const Background = () => {
           <div className="card four"></div>
           <div className="card five"></div>
         </div>
-
       </section>
 
       <section className="gallery">
-        <div className="gallery">
-          
+        <div className="gallery-contents">
+          <h1>Gallery</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis
+            exercitationem odit debitis, veritatis, quidem rem molestias
+            deserunt at nam dolore ab dolor, reprehenderit iste minima ipsum ut
+            amet voluptates magni?
+          </p>
+          <button>See More</button>
         </div>
         <img src={collage} alt="" />
       </section>
-
-
-
+      <Footer />
     </>
   );
 };

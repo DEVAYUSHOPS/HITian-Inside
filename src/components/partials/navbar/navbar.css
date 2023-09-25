@@ -1,0 +1,29 @@
+.navbar{
+    width: 100vw;
+    margin: 2%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+  }
+  .logo-container{
+    width: 10%;
+    color: #fff;
+  }
+  .navbar img{
+    width: 50%;
+    align-self: center;
+  }
+  .navbar .nav-items{
+    margin-right: 5%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .navbar .nav-item a{
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
