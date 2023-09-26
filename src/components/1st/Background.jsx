@@ -1,8 +1,6 @@
 import React from "react";
 import "./Background.css";
 import Navbar from "../partials/navbar/navbar";
-import home from "../../assets/img/Home.png";
-
 import hit from "../../assets/img/hit33-1.png";
 import curve from "../../assets/img/homepage-curve.png";
 import name from "../../assets/img/HITian Inside name.png";
